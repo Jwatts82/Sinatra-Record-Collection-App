@@ -1,4 +1,4 @@
-class Album < ActiveRecord::Base
-    
+class User < ActiveRecord::Base
+    has_many :albums
 
 end
